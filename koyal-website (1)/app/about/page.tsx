@@ -1,12 +1,11 @@
 import Header from "@/components/header"
-import ComingSoon from "@/components/coming-soon"
+import AboutContent from "@/components/about-content"
 
 export default function About() {
   return (
-    <main>
+    <main className="min-h-screen flex flex-col">
       <Header />
-      <ComingSoon />
+      <AboutContent />
     </main>
   )
 }
-
